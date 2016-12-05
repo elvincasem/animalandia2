@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.chedro1.www"
+        versionCode = "1" 
+        version     = "1.5.0" >
+        <name>Exploring Animalandia</name>
+        <description>
+            Mobile Game for toddlers
+        </description>
+        <author>
+            Judy Ann Balesteros, Joyce Ana Bulatao, Lyn Carlos, Jessica Difuntorum, Maridel Garcia
+        </author>
+		<icon platform="android" src="img/96px.png" density="xhdpi" width="96" height="96"/>
+<icon platform="android" src="img/72px.png" density="hdpi" width="72" height="72"/>
+<icon platform="android" src="img/48px.png" density="mdpi" width="48" height="48"/>
+<icon platform="android" src="img/36px.png" density="ldpi" width="36" height="36"/>
+        <content src="index.html" />
+        <access origin="*" />
+		<allow-navigation href="*" />
+        <icon src="96px.png" gap:platform="android" gap:qualifier="ldpi" />
+        <icon src="96px.png" gap:platform="android" gap:qualifier="mdpi" />
+        <icon src="96px.png" gap:platform="android" gap:qualifier="hdpi" />
+        <icon src="96px.png" gap:platform="android" gap:qualifier="xhdpi" />
+        <icon src="96px.png" gap:platform="android" gap:qualifier="xxhdpi" />
+        <icon src="96px.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
+		<preference name="debuggable" value="false"/>
+		<plugin name="cordova-plugin-whitelist" spec="1.3.0" source="npm" />
+		<plugin name="cordova-plugin-inappbrowser" spec="1.5.0" source="npm" />
+		<plugin name="cordova-plugin-splashscreen" spec="4.0.0" source="npm" />
+		<plugin name="cordova-plugin-device" spec="1.1.3" source="npm" />
+
+
