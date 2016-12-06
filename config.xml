@@ -2,7 +2,7 @@
     
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.chedro1.www"
+        id          = "com.animalandia.www"
         versionCode = "1" 
         version     = "1.5.0" >
         <name>Exploring Animalandia</name>
