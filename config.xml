@@ -12,10 +12,7 @@
         <author>
             Judy Ann Balesteros, Joyce Ana Bulatao, Lyn Carlos, Jessica Difuntorum, Maridel Garcia
         </author>
-		<icon platform="android" src="img/96px.png" density="xhdpi" width="96" height="96"/>
-<icon platform="android" src="img/72px.png" density="hdpi" width="72" height="72"/>
-<icon platform="android" src="img/48px.png" density="mdpi" width="48" height="48"/>
-<icon platform="android" src="img/36px.png" density="ldpi" width="36" height="36"/>
+
         <content src="index.html" />
         <access origin="*" />
 		<allow-navigation href="*" />
